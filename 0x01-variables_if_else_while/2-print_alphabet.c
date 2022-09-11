@@ -1,27 +1,13 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+*main -> assign a random number tothe variable n each time it is executed
+*and print the last digit of the number stored in the variable n
+*/
 int main(void)
 {
-	char l;
 
-	l = 'a';
-	while (l <= 'z')
-	{
-		putchar(l);
-		l++;
-	}
-	l = 'A';
-	while (l <= 'Z')
-	{
-		putchar(l);
-		l++;
-	}
-	putchar('\n');
-	return (0);
-}
+	return (0)
+};
