@@ -1,18 +1,18 @@
 #include <stdio.h>
-
 /**
-* main - Print alphabet in lower case
+* main - Print all numbers in base 10
 *
 * Return: Always (0) success
 */
 
 int main(void)
 {
-	char ch;
+	int i;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
+	for (i = 0; i < 10; i++)
+	{
+		putchar(i + '0');
+	}
 	putchar('\n');
-
 	return (0);
 }
