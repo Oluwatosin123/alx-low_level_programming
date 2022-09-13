@@ -10,11 +10,12 @@ int main(void)
     putchar(ch);
   }
 
+  putchar(10); /*ascii code for new line*/;
+
   for (ch =65; ch <= 90; ch++)
   {
     putchar(ch);
   }
-    putchar(10); /*ascii code for new line*/;
   
     return 0;
 }
